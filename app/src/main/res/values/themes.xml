@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TestMemory" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_draker_gray</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_gray</item>
+        <item name="colorSecondaryVariant">@color/color_gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.TestMemory.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+        <item name="android:actionBarStyle">@style/Widget.Theme.TestMemory.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowBackground">@color/color_draker_gray</item>
+    </style>
+
+</resources>
